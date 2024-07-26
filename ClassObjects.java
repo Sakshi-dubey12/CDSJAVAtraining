@@ -10,7 +10,9 @@ public class ClassObjects {
         trainer.trainerTechnology = scanner.nextLine();
 
         String tname = trainer.nameCancatinates("pawan","sharma");
+        String FullName = trainer.nameCancatenate("pawan","sharma","kumar");
         System.out.println("Trainer Full Name in japan:" + tname);
+        System.out.println("Trainer Full Name in India:" +  FullName);
 
         Student student = new Student();
         System.out.println("Enter the student name");
@@ -33,7 +35,7 @@ class Trainer{
         return LName + FName;
     }
     String nameCancatenate(String FName ,String LName, String MName){
-        return FName + MName + LName;
+        return LName + MName + FName;
     }
 
 

@@ -1,8 +1,10 @@
+package GUIPractice;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class JFrameDemo {
+public class JFrameBMIDemo {
     public static void main(String[] args) {
         System.out.println("jFrame is used to build GUI Java application");
         JFrame jframe = new JFrame("BMI calculator");
