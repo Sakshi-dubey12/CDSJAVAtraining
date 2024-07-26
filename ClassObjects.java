@@ -32,6 +32,9 @@ class Trainer{
     public static String nameCancatinates(String FName, String LName){
         return LName + FName;
     }
+    String nameCancatenate(String FName ,String LName, String MName){
+        return FName + MName + LName;
+    }
 
 
 }
