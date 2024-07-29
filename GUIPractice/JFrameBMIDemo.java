@@ -1,5 +1,4 @@
 package GUIPractice;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -17,7 +16,7 @@ public class JFrameBMIDemo {
         JTextField userWeightTextField = new JTextField("0");
         userWeightTextField.setBounds(250,40,60,40);
 
-        //user heigth
+        //user height
 
         JLabel userHeightLabel = new JLabel("Enter your Height in m");
         userHeightLabel.setBounds(40,80,250,40);
@@ -53,7 +52,7 @@ public class JFrameBMIDemo {
 
         //logic  bmi calculator user height in m and user weight kg
         //formula weight /(height * height)
-        //to use defualt layout
+        //to use default layout
         jframe.setLayout(null);
         jframe.setSize(500,500);
         //set visible the frame
