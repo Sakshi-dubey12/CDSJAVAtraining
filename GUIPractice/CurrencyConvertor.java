@@ -1,6 +1,7 @@
 package GUIPractice;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -24,6 +25,8 @@ public class CurrencyConvertor {
         usdField.setBounds(180, 80, 50, 40);
         button.setBounds(30, 130, 100, 40);
         result.setBounds(140, 130, 250, 40);
+
+
         frame.add(result);
         frame.add(button);
         frame.add(rsLabel);
@@ -52,7 +55,7 @@ public class CurrencyConvertor {
                     result.setText("Usd to Inr :" + usdToInr);
                 } else if (rsField.getText().isEmpty()
                         && usdField.getText().isEmpty()) {
-                    result.setText("Enter atlease one amount to convert :" );
+                    result.setText("Enter atleast one amount to convert :" );
                 }
                 else {
                     float rs = Float.parseFloat(rsField.getText());
